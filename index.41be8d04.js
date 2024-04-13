@@ -1,0 +1,2 @@
+document.addEventListener("click",function(t){if("wall"===t.target.className){var e=document.querySelector(".wall"),i=document.querySelector(".spider"),c=Math.min(Math.max(t.offsetX,i.clientWidth/2),e.clientWidth-i.clientWidth/2),l=Math.min(Math.max(t.offsetY,i.clientHeight/2),e.clientHeight-i.clientHeight/2);i.style.top="".concat(l-i.clientHeight/2,"px"),i.style.left="".concat(c-i.clientWidth/2,"px")}});
+//# sourceMappingURL=index.41be8d04.js.map
